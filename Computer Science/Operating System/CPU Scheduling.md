@@ -2,9 +2,9 @@
 
 <br>
 
-### 1. 스케줄링
+## 1. 스케줄링
 
-> CPU 를 잘 사용하기 위해 프로세스를 잘 배정하기
+> CPU 를 잘 사용하기 위해 프로세스를 잘 배정
 
 - 조건 : 오버헤드 ↓ / 사용률 ↑ / 기아 현상 ↓
 - 목표
@@ -12,15 +12,13 @@
     2. `Interactive System`: 빠른 응답 시간. 적은 대기 시간.
     3. `Real-time System`: 기한(deadline) 맞추기.
 
-### 2. 선점 / 비선점 스케줄링
+## 2. 선점 / 비선점 스케줄링
 
-- 선점 (preemptive) : OS가 CPU의 사용권을 선점할 수 있는 경우, 강제 회수하는 경우 (처리시간 예측 어려움)
-- 비선점 (nonpreemptive) : 프로세스 종료 or I/O 등의 이벤트가 있을 때까지 실행 보장 (처리시간 예측 용이함)
-
-### 3. 프로세스 상태
-
-![download (5)](https://user-images.githubusercontent.com/13609011/91695344-f2dfae80-eba8-11ea-9a9b-702192316170.jpeg)
-- 선점 스케줄링 : `Interrupt`, `I/O or Event Completion`, `I/O or Event Wait`, `Exit`
-- 비선점 스케줄링 : `I/O or Event Wait`, `Exit`
-
----
+### 선점 (preemptive) : OS가 CPU의 사용권을 선점할 수 있는 경우, 강제 회수하는 경우 (처리시간 예측 어려움)
+  - FCFS
+  - SJF
+  - HRN
+### 비선점 (nonpreemptive) : 프로세스 종료 or I/O 등의 이벤트가 있을 때까지 실행 보장 (처리시간 예측 용이함)
+  - Priority Schediuling
+  - Round Robin
+  - Multilevel-Queue
