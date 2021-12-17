@@ -14,11 +14,11 @@
 
 ## 2. 선점 / 비선점 스케줄링
 
-### 선점 (preemptive) : OS가 CPU의 사용권을 선점할 수 있는 경우, 강제 회수하는 경우 (처리시간 예측 어려움)
-  - FCFS
-  - SJF
-  - HRN
-### 비선점 (nonpreemptive) : 프로세스 종료 or I/O 등의 이벤트가 있을 때까지 실행 보장 (처리시간 예측 용이함)
-  - Priority Schediuling
-  - Round Robin
-  - Multilevel-Queue
+  ### 선점 (preemptive) : OS가 CPU의 사용권을 선점할 수 있는 경우, 강제 회수하는 경우 (처리시간 예측 어려움)
+    - FCFS
+    - SJF
+    - HRN
+  ### 비선점 (nonpreemptive) : 프로세스 종료 or I/O 등의 이벤트가 있을 때까지 실행 보장 (처리시간 예측 용이함)
+    - Priority Schediuling
+    - Round Robin
+    - Multilevel-Queue
