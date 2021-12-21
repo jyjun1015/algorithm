@@ -1,5 +1,5 @@
-def solution(numbers, hand):
 
+def solution(numbers, hand):
     answer = ''
     key_dict = {'1':[0,0],
           '2':[0,1],
